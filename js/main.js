@@ -1,9 +1,9 @@
 
 function btn(){
-    document.getElementById("nav").style.width="250px";
-    document.getElementById("nav").style.height="700px";
-    document.getElementById("name").style.marginLeft="250px";
-    document.getElementById("dev").style.marginLeft="250px";
+    document.getElementById("nav").style.width="200px";
+    document.getElementById("nav").style.height="100%";
+    document.getElementById("name").style.marginLeft="200px";
+    document.getElementById("dev").style.marginLeft="200px";
     document.getElementById("name").style.color='white';
     document.getElementById("dev").style.color='orange';
     document.getElementsByClassName("namedev").style.textTransform='capitalize';
@@ -35,7 +35,7 @@ $(document).ready(function(){
     });
 });
 document.querySelector('.exe').onclick=function(){
-    document.querySelector("#name").css('color','red');
+    document.querySelector("#name").css('color','black');
 }
 
 // $(document).ready(function(){

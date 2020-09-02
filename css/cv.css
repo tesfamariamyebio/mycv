@@ -1,4 +1,4 @@
-body{background-color: rgba(0, 0, 255, 0.863);
+body{background-color:white;
     padding:0px;
     margin:0px;
 }
@@ -8,7 +8,6 @@ body{background-color: rgba(0, 0, 255, 0.863);
 .header{padding:20px;
     text-align: center;
     font-size:40px;
-
 }
 .click{width:90px;
     margin-left:0;
@@ -17,9 +16,9 @@ body{background-color: rgba(0, 0, 255, 0.863);
     background-color:white;
     border:none;
 }
-.close{margin-left:225px;
+.close{margin-left:175Px;
     border:none;
-    background-color:RED;
+    background-color:white;
     font-size: 35px;
 }
 .close:hover{background-color: white;
@@ -35,7 +34,7 @@ body{background-color: rgba(0, 0, 255, 0.863);
     left:0px;
     overflow-x:hidden;
     z-index:1;
-    position: absolute;
+    position:fixed;
     transition: 0.7s;
 }
 a{text-decoration:none;
@@ -113,7 +112,10 @@ footer{background-color: gray;}
 /*........... setting for mobiles.................*/
 
 @media (max-width:576px)
-{#nav{background-color:red;
+{body{background-color:white;
+    padding:0px;
+}
+#nav{background-color:red;
     height:100%;
     width:0;
     top:0px;
@@ -130,7 +132,7 @@ footer{background-color: gray;}
 .click:hover{
     font-size: 30px;
 }
-.close{margin-left:200px;
+.close{margin-left:160px;
     border:none;
     font-size: 40px;
 }
@@ -142,21 +144,21 @@ footer{background-color: gray;}
 }
 .name{
     color:black;
-    font-size:20px;
+    font-size:18px;
     text-align:left;
     margin-left:1px;
 }
 .dev{color:white;
-    font-size:20px; 
+    font-size:18px; 
 }
-h1{font-size:22px ;
+h1{font-size:20px ;
 }
-h2{font-size: 22px;
+h2{font-size: 20px;
 }
 strong{color:black;
 }
-#experience{height:100%;
-}
+/* #experience{height:100%; */
+
 #experience ul li{padding-bottom:12px;
 }
 #formation{height:auto;
@@ -165,14 +167,14 @@ strong{color:black;
 #formation ul li{padding-bottom:12px;
     color:black;
 }
-#competence{height:500px;
-}
+/* #competence{height:100%; */
+
 #competence ul li{padding-bottom:12px;
 }
 #contactaddress {height:auto;
 }
-#centredinteret{height:100px;
-}
+/* #centredinteret{height:100px;
+} */
 .habilites ul li{
     line-height: 22px;
     font-size: 18px;  
@@ -185,8 +187,8 @@ strong{color:black;
 }
 .habilites:hover{background-color:orange;
 }
-footer{background-color: gray;
-}
+/* footer{background-color: gray;
+} */
 
 }
 
