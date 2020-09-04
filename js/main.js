@@ -1,13 +1,13 @@
 
-function btn(){
-    document.getElementById("nav").style.width="200px";
-    document.getElementById("nav").style.height="100%";
-    document.getElementById("name").style.marginLeft="200px";
-    document.getElementById("dev").style.marginLeft="200px";
-    document.getElementById("name").style.color='white';
-    document.getElementById("dev").style.color='orange';
-    document.getElementsByClassName("namedev").style.textTransform='capitalize';
-}
+// function btn(){
+//     document.getElementById("nav").style.width="200px";
+//     document.getElementById("nav").style.height="100%";
+//     document.getElementById("name").style.marginLeft="200px";
+//     document.getElementById("dev").style.marginLeft="200px";
+//     document.getElementById("name").style.color='white';
+//     document.getElementById("dev").style.color='orange';
+//     document.getElementsByClassName("namedev").style.textTransform='capitalize';
+// }
 function cls(){
     document.getElementById("nav").style.width="0";
   
