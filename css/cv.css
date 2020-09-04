@@ -28,8 +28,8 @@ body{background-color:white;
 
 }
 #nav{background-color:red;
-    height:100%;
-    width:0;
+    height:50px;
+    width:100%;
     top:0px;
     left:0px;
     overflow-x:hidden;
@@ -37,9 +37,12 @@ body{background-color:white;
     position:fixed;
     transition: 0.7s;
 }
+.activename{
+    background-color:blue;
+}
 a{text-decoration:none;
     padding:10px;
-    display:block;
+    display:inline-block;
     color:white;
     font-size:25px;
     transition:0.4s;
@@ -51,13 +54,17 @@ a:hover{background-color: black;
 }
 .habilites{
     width:610px;
-    height:400px;
-    background-color:rgba(255, 255, 255, 0.993);
+    height:auto;
+    background-color:rgb(175, 170, 170);
     margin:auto;
     transition: 0.3s;
 }
+.habilites:hover{
+    background-color:orange;
+}
 h1{text-align: center;
     color:black;
+    background-color:gray;
 }
 .name{
     color:black;
@@ -69,25 +76,12 @@ h1{text-align: center;
     font-size:35px;
 }
 .namedev{top:0px;
-
 }
-#experience{height:300px;
-}
-#experience ul li{padding-bottom:15px;
-}
-#formation{height:500px;
+#experience ul li{padding-bottom:25px;
 }
 #formation ul li{padding-bottom:15px;
-
-}
-#competence{height:550px;
-
 }
 #competence ul li{padding-bottom:15px;
-
-}
-#contactaddress {height:320px;}
-#centredinteret{height:100px;
 }
 .habilites ul li{
     font-size: 22px;
@@ -99,31 +93,35 @@ h1{text-align: center;
 .habilites li{list-style-type: square disc;
     color:black;
 }
-
  .bigsize{list-style-type:square;
     color:black;
     font-weight: bold;
 }
-/* .habilites:hover{background-color:orange;
-    color:white;
-} */
-footer{background-color: gray;}
-
-/*........... setting for mobiles.................*/
-
 @media (max-width:576px)
-{body{background-color:white;
+{body{ background-color:rgb(175, 170, 170);
     padding:0px;
 }
 #nav{background-color:red;
-    height:100%;
-    width:0;
+    height:290px;
+    width:100%;
     top:0px;
     left:0px;
     overflow-x:hidden;
     z-index:1;
     position: absolute;
     transition: 0.7s;
+}
+.activename{
+    background-color:blue;
+    text-align:center;
+}
+a{text-decoration:none;
+    width:100%;
+    padding:10px;
+    display:inline-block;
+    color:white;
+    font-size:18px;
+    transition:0.4s;
 }
  .click{font-size: 25px;
     width:60px;
@@ -138,7 +136,7 @@ footer{background-color: gray;}
 }
 .habilites{
     width:100%;
-    height:100%;
+    height:100px;
     background-color:white;
     margin-left:0px;
 }
@@ -148,8 +146,12 @@ footer{background-color: gray;}
     text-align:left;
     margin-left:1px;
 }
-.dev{color:white;
-    font-size:18px; 
+.namedev{color:white;
+    font-size:35px; 
+    margin-top:290px;
+    height:80px;
+    text-align:center;
+    
 }
 h1{font-size:20px ;
 }
@@ -157,24 +159,40 @@ h2{font-size: 20px;
 }
 strong{color:black;
 }
-/* #experience{height:100%; */
-
+#experience{height:100%;
+    margin-top:290px;
+}
+#experience h1{font-size:25px;
+}
 #experience ul li{padding-bottom:12px;
 }
 #formation{height:auto;
+    margin:290px;
     color: black;
 }
 #formation ul li{padding-bottom:12px;
     color:black;
 }
-/* #competence{height:100%; */
+#formation h1{font-size:25px;
+}
+#competence{height:100%;
+    margin-top:290px;
+}
+#competence h1{font-size:25px;
+}
 
 #competence ul li{padding-bottom:12px;
 }
 #contactaddress {height:auto;
+    margin-top:290px;
 }
-/* #centredinteret{height:100px;
-} */
+#contactaddress h1{font-size:25px;
+}
+#centredinteret{height:100px;
+    margin-top:290px;
+}
+#centredinteret h1{font-size:25px;
+}
 .habilites ul li{
     line-height: 22px;
     font-size: 18px;  
@@ -185,7 +203,8 @@ strong{color:black;
 .habilites ul li{list-style-type: square disc;
    
 }
-.habilites:hover{background-color:orange;
+.habilites{
+    background-color:rgb(175, 170, 170);
 }
 /* footer{background-color: gray;
 } */
