@@ -149,11 +149,13 @@ a{text-decoration:none;
 .namedev{color:white;
     font-size:35px; 
     margin-top:290px;
-    height:80px;
+    height:110px;
     text-align:center;
+    background-color:rgb(175, 170, 170);
     
 }
 h1{font-size:20px ;
+    text-align: center;
 }
 h2{font-size: 20px;
 }
